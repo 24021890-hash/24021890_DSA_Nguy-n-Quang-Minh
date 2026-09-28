@@ -32,3 +32,8 @@ int main() {
 
     return 0;
 }
+/*
+ * PHAN TICH DO PHUC TAP:
+ * - Thoi gian (Time Complexity): O(N) -> Thao tac erase() va insert() deu can doi cac phan tu phia sau.
+ * - Bo nho (Space Complexity):   O(N) -> Luu màng gom N phan tu.
+ */
