@@ -30,3 +30,8 @@ int main() {
 
     return 0;
 }
+/*
+ * PHAN TICH DO PHUC TAP:
+ * - Thoi gian (Time Complexity): O(N log N) -> Do thuat toan std::sort.
+ * - Bo nho (Space Complexity):   O(N)       -> Luu màng gom N phan tu.
+ */
