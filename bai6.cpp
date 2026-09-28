@@ -49,3 +49,37 @@ int main() {
 
     return 0;
 }
+/*
+================================================================================
+                    PHAN TICH DO PHUC TAP (COMPLEXITY)
+================================================================================
+
+1. HAM tinhTong():
+   - Thoi gian (Time): O(N * M)
+     Duyet qua tat ca N dong va M cot (tong cong N * M phan tu).
+   - Bo nho (Space): O(1)
+     Chi dung 1 bien 'tong' de tinh, khong ton thêm bo nho.
+
+2. HAM xoaDong():
+   - Thoi gian (Time): O(N)
+     Doi cac con tro dong phia sau i sang trai 1 vi tri. Thao tac nay khong
+     phu thuoc vao so cot M.
+     + Tot nhat: O(1) khi xoa dong cuoi cung.
+     + Xau nhat: O(N) khi xoa dong dau tien.
+   - Bo nho (Space): O(1)
+     Doi con tro dong truc tiep tren manga hien tai.
+
+3. HAM inMang():
+   - Thoi gian (Time): O(N * M)
+   - Bo nho (Space): O(1)
+
+4. TOAN BO CHUONG TRINH (MAIN):
+   - Nhap mang: O(N * M) time, O(N * M) space
+   - Tinh tong: O(N * M) time, O(1) space
+   - Xoa dong:  O(N) time,     O(1) space
+   - In mang:   O(N * M) time, O(1) space
+   --------------------------------------------------
+   => Tong do phuc tap thoi gian (Time Complexity):  O(N * M)
+   => Tong do phuc tap bo nho   (Space Complexity): O(N * M)
+================================================================================
+*/
