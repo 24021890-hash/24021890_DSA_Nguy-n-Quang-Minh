@@ -56,3 +56,12 @@ int main() {
 
     return 0;
 }
+/*
+ * PHAN TICH DO PHUC TAP:
+ * - tinhTong(): O(N * M) time | O(1) space -> Duyet tat ca N * M phan tu.
+ * - xoaDong():  O(N) time     | O(1) space -> Doi N - 1 - i con tro dong sang trai (khong phu thuoc M).
+ *
+ * TOAN BO CHUONG TRINH:
+ * - Thoi gian (Time Complexity): O(N * M)
+ * - Bo nho (Space Complexity):   O(N * M) -> Luu ma tran kích thuoc N x M.
+ */
