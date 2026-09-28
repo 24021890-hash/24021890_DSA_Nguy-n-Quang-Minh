@@ -43,3 +43,8 @@ int main() {
 
     return 0;
 }
+/*
+ * PHAN TICH DO PHUC TAP:
+ * - Thoi gian (Time Complexity): O(log(min(|a|, |b|))) -> Do thuat toan Euclide tim UCLN.
+ * - Bo nho (Space Complexity):   O(1)                 -> Chi dung bien nguyen, khong ton them bo nho.
+ */
