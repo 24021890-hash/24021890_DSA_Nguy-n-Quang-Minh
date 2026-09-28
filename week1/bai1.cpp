@@ -30,3 +30,8 @@ int main() {
 
     return 0;
 }
+/*
+ * PHAN TICH DO PHUC TAP:
+ * - Thoi gian (Time Complexity): O(N) -> Duyet qua N phan tu 1 lan.
+ * - Bo nho (Space Complexity):   O(N) -> Luu mảng gôm N phan tu.
+ */
