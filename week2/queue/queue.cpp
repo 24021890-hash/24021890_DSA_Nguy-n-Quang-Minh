@@ -1,8 +1,8 @@
 #ifndef QUEUE_H_INCLUDED
 #define QUEUE_H_INCLUDED
 #include <iostream>
-#include "list.h"
-#include "linklist.h"
+#include "list.cpp"
+#include "linklist.cpp"
 using namespace std;
 
 struct QueueList {
