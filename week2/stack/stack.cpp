@@ -1,8 +1,8 @@
 #ifndef STACK_H_INCLUDED
 #define STACK_H_INCLUDED
 #include <iostream>
-#include "linklist.h"
-#include "List.h"
+#include "linklist.cpp"
+#include "List.cpp"
     using namespace std;
 
     struct StackList{
