@@ -13,45 +13,10 @@ struct HashNode {
         key = k;
         value = v;
         next = nullptr;
-    }
-};
 
-class HashTable {
-private:
-    int capacity;          // Kích thước của bảng băm
-    HashNode** table;      // Mảng con trỏ chứa các danh sách liên kết
 
-    // Hàm băm đơn giản (Hash Function): tính tổng mã ASCII của key
-    int hashFunction(string key) {
-        int hashValue = 0;
-        for (char c : key) {
-            hashValue += c;
-        }
-        return hashValue % capacity;
-    }
-
-public:
-    // Khởi tạo bảng băm với kích thước mặc định
-    HashTable(int size = 10) {
-        capacity = size;
-        table = new HashNode*[capacity];
-        for (int i = 0; i < capacity; i++) {
-            table[i] = nullptr;
-        }
-    }
-
-    // Hủy bộ nhớ
-    ~HashTable() {
-        for (int i = 0; i < capacity; i++) {
-            HashNode* current = table[i];
-            while (current != nullptr) {
-                HashNode* prev = current;
-                current = current->next;
-                delete prev;
-            }
-        }
-        delete[] table;
-    }
+    
+   
 
     // Thêm hoặc cập nhật một cặp (Key, Value)
     void insert(string key, int value) {
